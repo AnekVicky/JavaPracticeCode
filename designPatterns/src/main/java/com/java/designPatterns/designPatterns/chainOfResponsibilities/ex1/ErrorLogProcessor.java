@@ -1,6 +1,8 @@
-package com.java.designPatterns.designPatterns;
-
-public class ErrorLogProcessor {
+package com.java.designPatterns.designPatterns.chainOfResponsibilities.ex1;
+/**
+ * Created by anekkumarsingh on 2024-06-11 at 11:48:09
+ */
+public class ErrorLogProcessor extends LogProcessor{
 
     public ErrorLogProcessor(LogProcessor nextLogProcessor) {
         super(nextLogProcessor);

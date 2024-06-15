@@ -1,4 +1,4 @@
-package com.java.designPatterns.designPatterns.chainOfResponsibilities.ex1;
+package com.java.designPatterns.designPatterns.chainOfResponsibilities.LogProcessor;
 
 /**
  * Created by anekkumarsingh on 2024-06-11 at 11:33:51

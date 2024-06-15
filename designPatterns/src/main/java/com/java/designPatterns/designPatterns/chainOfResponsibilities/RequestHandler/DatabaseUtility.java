@@ -1,4 +1,4 @@
-package com.java.designPatterns.designPatterns.chainOfResponsibilities.ex2;
+package com.java.designPatterns.designPatterns.chainOfResponsibilities.RequestHandler;
 
 /**
  * Created by anekkumarsingh on 2024-06-11 at 11:55:08

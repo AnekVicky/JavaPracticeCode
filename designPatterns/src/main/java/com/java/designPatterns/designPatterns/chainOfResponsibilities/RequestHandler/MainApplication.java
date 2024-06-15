@@ -1,4 +1,4 @@
-package com.java.designPatterns.designPatterns.chainOfResponsibilities.ex2;
+package com.java.designPatterns.designPatterns.chainOfResponsibilities.RequestHandler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

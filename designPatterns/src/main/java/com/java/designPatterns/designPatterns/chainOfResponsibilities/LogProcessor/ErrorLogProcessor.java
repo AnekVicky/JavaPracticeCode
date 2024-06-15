@@ -1,16 +1,16 @@
-package com.java.designPatterns.designPatterns.chainOfResponsibilities.ex1;
+package com.java.designPatterns.designPatterns.chainOfResponsibilities.LogProcessor;
 /**
  * Created by anekkumarsingh on 2024-06-11 at 11:48:09
  */
-public class DebugLogProcessor extends LogProcessor{
+public class ErrorLogProcessor extends LogProcessor{
 
-    public DebugLogProcessor(LogProcessor nextLogProcessor) {
+    public ErrorLogProcessor(LogProcessor nextLogProcessor) {
         super(nextLogProcessor);
     }
 
     @Override
     public void log(Level level, String message) {
-        if(level.equals(Level.DEBUG)){
+        if(level.equals(Level.ERROR)){
             System.out.println(level+"::"+message);
         }else{
             super.nextLogProcessor(level, message);
